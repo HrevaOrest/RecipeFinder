@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RecipeFinder</string>
+    <string name="search">Пошук</string>
+    <string name="enter_ingredients">Введіть інградієнти</string>
+    <string name="title_ctivit_activitu_sarat">gg</string>
+    <string name="title_ctivit_activity_main">ff</string>
+    <string name="title_activity_activity_main">dd</string>
+
+
+    <string-array name="names">
+        <item> onion</item>
+        <item> potato</item>
+        <item> butter</item>
+        <item> cheese</item>
+        <item> honey</item>
+        <item> pumpkin</item>
+        <item> cucumber</item>
+        <item> fig</item>
+        <item> apples</item>
+        <item> eggs</item>
+        <item> cabbage</item>
+        <item> carrot</item>
+        <item> meat</item>
+    </string-array>
+</resources>

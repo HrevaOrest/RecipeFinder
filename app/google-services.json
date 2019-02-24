@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1030073789313",
+    "firebase_url": "https://recipefinder-34dfc.firebaseio.com",
+    "project_id": "recipefinder-34dfc",
+    "storage_bucket": "recipefinder-34dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030073789313:android:93b573e3f8a59e6d",
+        "android_client_info": {
+          "package_name": "com.project.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030073789313-tspnrr0dn3ssajo927mrvq7chgbm8j1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.project",
+            "certificate_hash": "9ee3be571230e1ac9ed6b3fbd6fb0aa6042ee9c0"
+          }
+        },
+        {
+          "client_id": "1030073789313-8fndsf5bdemot863prpce0328vd4op54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADTy4x7J0UEexqRUk5j52fLTYUK4OtwiI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030073789313-8fndsf5bdemot863prpce0328vd4op54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

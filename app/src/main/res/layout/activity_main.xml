@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPressedHighlight"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+
+    android:paddingTop="2dp"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:id="@+id/btnActThree"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Виберіть інградієнти"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnCountry"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Виберіть національність" />
+
+    <Button
+        android:id="@+id/btnsoup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Виберіть вид страви" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/search_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/enter_ingredients"
+            android:inputType="textShortMessage" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="3"
+            android:text="@string/search" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
